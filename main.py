@@ -2,8 +2,8 @@ import os
 from PIL import Image, UnidentifiedImageError
 import imageio.v3 as iio
 
-source_directory = r'F:\Bas The Creative Technologist\Hanco Kolk webshop\content-voor-de-site'
-destination_directory = r'F:\Bas The Creative Technologist\Hanco Kolk webshop\converted tifs-pngs'
+source_directory = r'input directory'
+destination_directory = r'output directory'
 
 for filename in os.listdir(source_directory):
     if filename.endswith('.tif'):
